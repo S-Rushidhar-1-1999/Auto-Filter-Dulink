@@ -239,13 +239,15 @@ async def start(client, message):
             f_caption=f_caption
     if f_caption is None:
         f_caption = f"{files.file_name}"
-    await client.send_cached_media(
+    fuck = await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/RequestMoviez1999') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('Rushidhar Moviez', url='https://telegram.me/RushidharMoviez') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
+    await asyncio.sleep(300)
+    await fuck.delete()
                     
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
