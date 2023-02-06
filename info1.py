@@ -45,8 +45,8 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "{file_caption}\n\n<b>Join: [USE_FULL_BOTS](https://telegram.me/Use_Full_Bots)</b>")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "{file_caption}\n\n<b>Join: [USE_FULL_BOTS](https://telegram.me/Use_Full_Bots)</b>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "{file_caption}\n\n<b>This File Will Be Deleted In 5 Mins, Please Forward To Someone Or Save Messages.\n\nJoin: [USE_FULL_BOTS](https://telegram.me/Use_Full_Bots)</b>")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "{file_caption}\n\n<b>This File Will Be Deleted In 5 Mins, Please Forward To Someone Or Save Messages.\n\nJoin: [USE_FULL_BOTS](https://telegram.me/Use_Full_Bots)</b>")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🧿 ᴛɪᴛᴛʟᴇ :  {title} \n🌟 ʀᴀᴛɪɴɢ : {rating} \n🎭 ɢᴇɴʀᴇ : {genres} \n📆 ʀᴇʟᴇᴀsᴇ : {year} \n⏰ ᴅᴜʀᴀᴛɪᴏɴ : {runtime} \n🎙️ʟᴀɴɢᴜᴀɢᴇ : {languages} \n🔖 sʜᴏʀᴛ : {plot} \n★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Use_Full_Bots")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "False"), False)
@@ -85,7 +85,7 @@ DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
 DOWNLOAD_TEXT_URL = "https://telegram.me/How_To_Download_1/13"
 
    # Custom Caption Under Button #
-CAPTION_BUTTON = "⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚"
-CAPTION_BUTTON_URL = "https://telegram.me/RequestMoviez1999"
+CAPTION_BUTTON = "Rushidhar Moviez"
+CAPTION_BUTTON_URL = "https://telegram.me/RushidharMoviez"
 
    # Auto Delete For Bot Sending Files #
